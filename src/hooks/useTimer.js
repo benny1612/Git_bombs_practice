@@ -53,7 +53,7 @@ const useTimer = (initialSeconds) => {
   
   const timer = formatTime(seconds)
 
-  return { timer, seconds, isActive, toggle, reset };
+  return { timer, seconds, isActive, setIsActive, toggle, reset };
 };
 
 export default useTimer;
