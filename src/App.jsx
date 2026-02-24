@@ -1,13 +1,13 @@
 import React from 'react'
-
+import Header from './comps/Header'
 export default function App() {
   return (
-    <div>App
+    <>
       <Header/>
-      <CardContainer/>
+      {/* <CardContainer/>
       <p></p>
       <Board/>
-      <RestartButtom/>
-    </div>
+      <RestartButtom/> */}
+    </>
   )
 }
