@@ -1,4 +1,5 @@
 import React from 'react'
+import CardContainer from './comps/CardContainer'
 
 export default function App() {
   return (
