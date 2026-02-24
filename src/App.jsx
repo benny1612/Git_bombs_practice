@@ -11,6 +11,11 @@ export default function App() {
   useEffect(() => {
     newGame && setIsActive(true)
   },[isActive])
+  useEffect(()=>{
+
+
+    
+  })
   return (
     <div className="background content-between flex flex-col">
       <Header />
